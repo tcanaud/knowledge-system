@@ -1,0 +1,14 @@
+version: "1.0"
+freshness_threshold_days: 30
+
+sources:
+  agreements_dir: {{agreements_dir}}
+  adr_dir: {{adr_dir}}
+  features_dir: {{features_dir}}
+  specs_dir: {{specs_dir}}
+
+snapshot:
+  include_conventions: true
+  include_adrs: true
+  include_features: true
+  include_tech_stack: true

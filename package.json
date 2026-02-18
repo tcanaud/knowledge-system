@@ -1,0 +1,29 @@
+{
+  "name": "knowledge-system",
+  "version": "1.0.0",
+  "description": "Verified Knowledge System — freshness-checked documentation for AI agent onboarding, with watched_paths drift detection",
+  "type": "module",
+  "bin": {
+    "knowledge-system": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "keywords": [
+    "knowledge",
+    "documentation",
+    "freshness",
+    "verification",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcanaud/knowledge-system.git"
+  }
+}

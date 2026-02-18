@@ -1,0 +1,10 @@
+version: "1.0"
+generated: "{{generated}}"
+
+guides: []
+
+conventions: []
+
+adrs: []
+
+features: []
