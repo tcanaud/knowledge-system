@@ -6,14 +6,14 @@ const command = argv[2];
 const flags = argv.slice(3);
 
 const HELP = `
-knowledge-system — Verified Knowledge System for AI agent onboarding.
+@tcanaud/knowledge-system — Verified Knowledge System for AI agent onboarding.
 
 Usage:
-  npx knowledge-system init      Scaffold .knowledge/ directory in the current project
-  npx knowledge-system update    Update commands and templates without touching user content
-  npx knowledge-system refresh   Regenerate snapshot.md and rebuild index.yaml
-  npx knowledge-system check     Verify freshness of all knowledge guides
-  npx knowledge-system help      Show this help message
+  npx @tcanaud/knowledge-system init      Scaffold .knowledge/ directory in the current project
+  npx @tcanaud/knowledge-system update    Update commands and templates without touching user content
+  npx @tcanaud/knowledge-system refresh   Regenerate snapshot.md and rebuild index.yaml
+  npx @tcanaud/knowledge-system check     Verify freshness of all knowledge guides
+  npx @tcanaud/knowledge-system help      Show this help message
 
 Options (init):
   --skip-bmad       Skip BMAD integration even if detected
