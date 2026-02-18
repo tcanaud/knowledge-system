@@ -1,6 +1,6 @@
 {
   "name": "@tcanaud/knowledge-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verified Knowledge System — freshness-checked documentation for AI agent onboarding, with watched_paths drift detection",
   "type": "module",
   "bin": {
