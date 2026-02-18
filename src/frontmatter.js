@@ -42,7 +42,7 @@ export function parseFrontmatter(content) {
     if (!m) return [];
     return m[1]
       .split("\n")
-      .map((line) => line.replace(/^\s*-\s*/, "").trim())
+      .map((line) => line.replace(/^\s*-\s*/, "").trim().replace(/^["']|["']$/g, ""))
       .filter(Boolean);
   };
 
